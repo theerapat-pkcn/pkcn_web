@@ -48,8 +48,15 @@ a:hover {
   color: #028C9F;
 }
 
+.services-hover:hover {
+  cursor: pointer;
+  color: #676F73;
+  /*color: #F8971D;*/
+}
+
 a {
   transition: all 0.3s ease-out 0s;
+  color: #676F73;
 }
 
 a,
