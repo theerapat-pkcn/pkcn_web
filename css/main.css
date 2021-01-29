@@ -31,6 +31,20 @@ TRP CUSTOM CSS
   background-color: rgba(248, 151, 29, 0.2);
 }
 
+/* Test section*/
+.about-us{
+  background-image: url("../img/about/about2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about-us >div {
+  opacity: 0.5;
+}
+/* ----------- */
+
+/*==================*/
+
 a:focus,
 input:focus,
 textarea:focus,
