@@ -31,15 +31,15 @@ TRP CUSTOM CSS
   background-color: rgba(248, 151, 29, 0.2);
 }
 
-/* Test section*/
-.about-us{
-  background-image: url("../img/about/about2.jpg");
-  background-repeat: no-repeat;
+#about {
+  background-image: url("../img/about/about_fade.png");
   background-position: center;
-  background-size: cover;
 }
-.about-us >div {
-  opacity: 0.5;
+
+.footer-contact-icon{
+  color: white;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 /* ----------- */
 
