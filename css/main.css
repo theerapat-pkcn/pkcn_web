@@ -10,7 +10,7 @@ body {
   font-family: "Heebo", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #676F73;
+  color: #676f73;
   overflow-x: hidden;
 }
 
@@ -23,6 +23,17 @@ body {
 /*==================
 TRP CUSTOM CSS
 ===================*/
+#home {
+  background-color: rgba(248, 151, 29, 0.1);
+}
+
+.cealect_rating {
+  font-size: 1rem;
+}
+
+#services {
+  background-color: rgba(248, 151, 29, 0.1);
+}
 
 #how {
   background-color: rgba(2, 140, 159, 0.2);
@@ -36,13 +47,13 @@ TRP CUSTOM CSS
   background-position: center;
 }
 
-.footer-contact-icon{
+.footer-contact-icon {
   color: white;
   width: 1.5rem;
   height: 1.5rem;
 }
 
-#footer_phone{
+#footer_phone {
   color: white;
   font-size: 1rem;
 }
@@ -64,18 +75,18 @@ button:focus,
 }
 
 a:hover {
-  color: #028C9F;
+  color: #028c9f;
 }
 
 .services-hover:hover {
   cursor: pointer;
-  color: #676F73;
+  color: #676f73;
   /*color: #F8971D;*/
 }
 
 a {
   transition: all 0.3s ease-out 0s;
-  color: #676F73;
+  color: #676f73;
 }
 
 a,
@@ -139,7 +150,7 @@ h1 {
 .section-title span {
   font-size: 25px;
   font-weight: 600;
-  color: #028C9F;
+  color: #028c9f;
   margin-bottom: 20px;
 }
 
@@ -207,9 +218,9 @@ p {
   color: #fff;
   cursor: pointer;
   z-index: 5;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   border: none;
-  background: #028C9F;
+  background: #028c9f;
   overflow: hidden;
 }
 
@@ -224,7 +235,7 @@ p {
 }
 
 .btn-hover::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0%;
   height: 0%;
@@ -245,7 +256,7 @@ p {
 .scroll-top {
   width: 45px;
   height: 45px;
-  background: #F8971D;
+  background: #f8971d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,10 +334,16 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite
+    both;
 }
 
-.preloader .loader .ytp-spinner .ytp-spinner-container .ytp-spinner-rotator .ytp-spinner-left {
+.preloader
+  .loader
+  .ytp-spinner
+  .ytp-spinner-container
+  .ytp-spinner-rotator
+  .ytp-spinner-left {
   position: absolute;
   top: 0;
   left: 0;
@@ -335,7 +352,12 @@ p {
   right: 50%;
 }
 
-.preloader .loader .ytp-spinner .ytp-spinner-container .ytp-spinner-rotator .ytp-spinner-right {
+.preloader
+  .loader
+  .ytp-spinner
+  .ytp-spinner-container
+  .ytp-spinner-rotator
+  .ytp-spinner-right {
   position: absolute;
   top: 0;
   right: 0;
@@ -351,7 +373,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #E8505B #E8505B #ddd;
+  border-color: #e8505b #e8505b #ddd;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -360,7 +382,8 @@ p {
   left: 0;
   right: -100%;
   border-right-color: #ddd;
-  animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite
+    both;
 }
 
 .preloader .loader .ytp-spinner-right .ytp-spinner-circle {
@@ -1154,7 +1177,6 @@ p {
 ===========================*/
 /*===== TRP Custom ======*/
 
-
 /*===== NAVBAR =====*/
 .navbar-area {
   position: absolute;
@@ -1196,7 +1218,7 @@ p {
 }
 
 .sticky .navbar .navbar-nav .nav-item a::before {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .sticky .navbar .navbar-toggler .toggler-icon {
@@ -1321,11 +1343,11 @@ p {
 }
 
 .navbar-nav .nav-item a::before {
-  content: '';
+  content: "";
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: rgba(248, 151, 29, 0.25);
+  background: rgba(248, 109, 29, 0.5);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1336,7 +1358,7 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-nav .nav-item a::before {
-    opacity: .5;
+    opacity: 0.5;
     top: 0;
     left: 0;
     transform: translate(0) scale(1);
@@ -1348,7 +1370,7 @@ p {
 
 @media (max-width: 767px) {
   .navbar-nav .nav-item a::before {
-    opacity: .5;
+    opacity: 0.5;
     top: 0;
     left: 0;
     transform: translate(0) scale(1);
@@ -1358,13 +1380,15 @@ p {
   }
 }
 
-.navbar-nav .nav-item a:hover::before, .navbar-nav .nav-item a.active::before {
+.navbar-nav .nav-item a:hover::before,
+.navbar-nav .nav-item a.active::before {
   transform: translate(-50%, -50%) scale(1);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .navbar-nav .nav-item a:hover::before, .navbar-nav .nav-item a.active::before {
-    opacity: .5;
+  .navbar-nav .nav-item a:hover::before,
+  .navbar-nav .nav-item a.active::before {
+    opacity: 0.5;
     top: 0;
     left: 0;
     transform: translate(0) scale(1);
@@ -1373,8 +1397,9 @@ p {
 }
 
 @media (max-width: 767px) {
-  .navbar-nav .nav-item a:hover::before, .navbar-nav .nav-item a.active::before {
-    opacity: .5;
+  .navbar-nav .nav-item a:hover::before,
+  .navbar-nav .nav-item a.active::before {
+    opacity: 0.5;
     top: 0;
     left: 0;
     transform: translate(0) scale(1);
@@ -1444,9 +1469,10 @@ p {
   color: #222;
 }
 
-.navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
+.navbar-nav .nav-item .sub-menu li a.active,
+.navbar-nav .nav-item .sub-menu li a:hover {
   padding-left: 25px;
-  color: #028C9F;
+  color: #028c9f;
 }
 
 .navbar-nav .sub-nav-toggler {
@@ -1694,15 +1720,15 @@ p {
 
 .rating {
   margin-top: 5px;
-  color: #E96A20;
+  color: #e96a20;
 }
 
 .about-section .about-content .rating-meta .rating {
-  color: #E96A20;
+  color: #e96a20;
 }
 
 .about-section .about-content .counter-up {
-  background: #E8505B;
+  background: #e8505b;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -1715,8 +1741,9 @@ p {
   margin: 0 15px;
 }
 
-.about-section .about-content .counter-up .single-counter::before, .about-section .about-content .counter-up .single-counter::after {
-  content: '';
+.about-section .about-content .counter-up .single-counter::before,
+.about-section .about-content .counter-up .single-counter::after {
+  content: "";
   position: absolute;
   width: 2px;
   height: calc(100% - 40px);
@@ -1726,19 +1753,22 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-section .about-content .counter-up .single-counter::before, .about-section .about-content .counter-up .single-counter::after {
+  .about-section .about-content .counter-up .single-counter::before,
+  .about-section .about-content .counter-up .single-counter::after {
     opacity: 0;
   }
 }
 
 @media (max-width: 767px) {
-  .about-section .about-content .counter-up .single-counter::before, .about-section .about-content .counter-up .single-counter::after {
+  .about-section .about-content .counter-up .single-counter::before,
+  .about-section .about-content .counter-up .single-counter::after {
     opacity: 0;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .about-section .about-content .counter-up .single-counter::before, .about-section .about-content .counter-up .single-counter::after {
+  .about-section .about-content .counter-up .single-counter::before,
+  .about-section .about-content .counter-up .single-counter::after {
     opacity: 1;
   }
 }
@@ -1827,7 +1857,7 @@ p {
 
 .testimonial-section .single-testimonial {
   padding: 40px 30px;
-  border: 1px solid #E2E2E2;
+  border: 1px solid #e2e2e2;
   border-radius: 10px;
   margin-bottom: 30px;
   transition: all 0.3s ease-out 0s;
@@ -1840,7 +1870,7 @@ p {
 
 .testimonial-section .single-testimonial .rating {
   margin-bottom: 30px;
-  color: #E96A20;
+  color: #e96a20;
 }
 
 .testimonial-section .single-testimonial .rating i {
@@ -1879,7 +1909,7 @@ p {
 }
 
 .partner-section .single-partner {
-  opacity: .43;
+  opacity: 0.43;
   transition: all 0.3s ease-out 0s;
 }
 
@@ -1888,7 +1918,7 @@ p {
 }
 
 .footer {
-  background: #028C9F;
+  background: #028c9f;
   position: relative;
   z-index: 1;
 }
@@ -1930,8 +1960,8 @@ p {
 }
 
 .footer .footer-widget .download-btns a:hover {
-  background: #028C9F;
-  border-color: #028C9F;
+  background: #028c9f;
+  border-color: #028c9f;
 }
 
 .footer .footer-widget .download-btns a .icon {
@@ -1966,7 +1996,7 @@ p {
 }
 
 .footer .footer-widget ul.links li a:hover {
-  color: #028C9F;
+  color: #028c9f;
 }
 
 @media (min-width: 1600px) {
